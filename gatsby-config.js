@@ -5,6 +5,7 @@ require(`dotenv`).config({
 module.exports = {
   siteMetadata: {
     siteTitleAlt: `Aura Studios`,
+    siteLanguage: `en`,
   },
   plugins: [
     {
