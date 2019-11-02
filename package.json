@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "cara",
+  "name": "aura-studios-landing-page",
   "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
   "version": "0.0.9",
   "author": "LekoArts <hello@lekoarts.de>",
@@ -19,6 +19,8 @@
     "@lekoarts/gatsby-theme-cara": "^1.0.6",
     "gatsby": "^2.13.72",
     "gatsby-plugin-google-analytics": "^2.1.8",
+    "gatsby-plugin-load-script": "^1.0.6",
+    "gatsby-plugin-mailchimp": "^5.1.2",
     "gatsby-plugin-manifest": "^2.2.6",
     "gatsby-plugin-netlify": "^2.1.6",
     "gatsby-plugin-offline": "^2.2.7",
