@@ -48,13 +48,6 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-plugin-load-script',
-      options: {
-        src: 'https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js',
-        onLoad: `() => window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"ea9b7c0cb1f4460e20e03ed6c","lid":"0be220cf33","uniqueMethods":true}) })`,
-      },
-    },
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
   ],
